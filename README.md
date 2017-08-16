@@ -12,9 +12,15 @@ writing macros for character abilities.
 
 # How to install the tool:
 
-Please perform a google search on how to compile a .cpp file.
-Install a compiler and use it to create a .exe file.
-Run that file in a command line environment.
+1) Start by downloading the main.cpp file.
+
+2) If you don't know how to compile a .cpp file into an executible, please perform a google search on how to compile a .cpp file on your operating system.
+
+3) If you have not already, install a compiler
+
+4) Use your cpp compiler to it to create a executible file.
+
+5) Run that file in a command line environment.
 
 
 
