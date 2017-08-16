@@ -22,7 +22,7 @@ Run that file in a command line environment.
 
 First you need to have an idea of what you want to do. Using the tool if fairly straight forward if you have an idea of what you want to do.
 
-You also need to understand half open ranges and interval notation... see (http://www.coolmath.com/algebra/07-solving-inequalities/03-interval-notation-01) if you don't know what \[0, 5) means.
+You also need to understand half open ranges and interval notation... if you don't know what \[0, 5) means open the following link (http://www.coolmath.com/algebra/07-solving-inequalities/03-interval-notation-01).
 
 Once you know what you want to do, just follow the prompts in the program to get the math roll generated. It's easier to understand when you see it in action. 
 
