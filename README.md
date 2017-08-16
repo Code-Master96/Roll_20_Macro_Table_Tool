@@ -5,8 +5,8 @@
 # Reason for creating the program:
 
 Roll 20 is a powerful system but there are limits to what you can do for free. 
-This application is just one tool to make (my) life a littel bit easier while 
-writing macros for my abilities. 
+This application is just one tool to make life a littel bit easier while 
+writing macros for character abilities. 
 
 
 
