@@ -15,7 +15,7 @@ int main(int argc, const char * argv[]) {
     
     clear();
     cout << "CodeMaster96's Macro Tool v1\n\n\n\n";
-    cout << "The attribute lookes like this:\n @{***somthing***|***somthing}\n\n";
+    cout << "The attribute lookes like this:\n @{***somthing***|***somthing***}\n\n";
     cout << endl;
     cout << "Enter the attribute:";
     cin.getline(attribute, 1000);
