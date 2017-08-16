@@ -14,7 +14,7 @@ writing macros for character abilities.
 
 Please perform a google search on how to compile a .cpp file.
 Install a compiler and use it to create a .exe file.
-run that file in a command line environment.
+Run that file in a command line environment.
 
 
 
@@ -26,15 +26,15 @@ Here's an example...
 In D&D 5E Destroy Undead is a add-on to the Turn Undead Channel Divinity feature.
 At various cleric levels you can destroy more and more powerful undead.
 Before level 5 you don't have access to the destroy undead ability.
-at level 5 you can destroy undead up to and including CR 1/2
-at level 8 you can destroy undead up to and including CR 1
-at level 11 you can destroy undead up to and including CR 2
-at level 14 you can destroy undead up to and including CR 3
-at level 17 you can destroy undead up to and including CR 4
+At level 5 you can destroy undead up to and including CR 1/2
+At level 8 you can destroy undead up to and including CR 1
+At level 11 you can destroy undead up to and including CR 2
+At level 14 you can destroy undead up to and including CR 3
+At level 17 you can destroy undead up to and including CR 4
 
 When we run the program it will ask for an attribute.
 
-in Roll20 attributes are statistics attached to a character sheet and it can be accessed
+In Roll20 attributes are statistics attached to a character sheet and it can be accessed
 by typing something that looks like @{selected|**attribute_name**} or @{**character_name**|**attribute_name**}
 
 Enter that for what your dependent variable is. 
