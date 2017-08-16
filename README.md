@@ -26,10 +26,15 @@ Here's an example...
 In D&D 5E Destroy Undead is a add-on to the Turn Undead Channel Divinity feature.
 At various cleric levels you can destroy more and more powerful undead.
 Before level 5 you don't have access to the destroy undead ability.
+
 At level 5 you can destroy undead up to and including CR 1/2
+
 At level 8 you can destroy undead up to and including CR 1
+
 At level 11 you can destroy undead up to and including CR 2
+
 At level 14 you can destroy undead up to and including CR 3
+
 At level 17 you can destroy undead up to and including CR 4
 
 When we run the program it will ask for an attribute.
@@ -48,11 +53,17 @@ Basically x is the first level that you gane the result r and y is the first lev
 What we want is the following:
 
 \[1,  5) --> -1 
+
 \[5,  8) --> 0.5
+
 \[8,  11) --> 1
+
 \[11, 14) --> 2
+
 \[14, 17) --> 3
+
 \[17, 21) --> 4
+
 
 After entering all the needed data just answer "y" when asked if you are done.
 
