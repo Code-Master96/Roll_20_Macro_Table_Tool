@@ -2,7 +2,7 @@
 
 
 
-Reason for creating the program:
+# Reason for creating the program:
 
 Roll 20 is a powerful system but there are limits to what you can do for free. 
 This application is just one tool to make (my) life a littel bit easier while 
@@ -10,7 +10,7 @@ writing macros for my abilities.
 
 
 
-How to install the tool:
+# How to install the tool:
 
 Please perform a google search on how to compile a .cpp file.
 Install a compiler and use it to create a .exe file.
@@ -18,7 +18,7 @@ run that file in a command line enviorment.
 
 
 
-How to use the tool:
+# How to use the tool:
 
 First you need to have an idea of what you want to do.
 Here's an example...
@@ -35,7 +35,7 @@ at level 17 you can destoy undead up to and including CR 4
 When we run the program it will ask for an attribute.
 
 in Roll20 attributes are statistics attached to a character sheet and it can be accessed
-by typing somthing that lookes like @{selected|***atribute_name***} or @{***character_name|***atribute_name***}
+by typing somthing that lookes like @{selected|**atribute_name**} or @{**character_name**|**atribute_name**}
 
 enter that for what your dependent variable is. 
 
