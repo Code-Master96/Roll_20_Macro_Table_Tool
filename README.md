@@ -50,7 +50,7 @@ We also need to indicate a range of vales and the value to be returned if the at
 \[lo,hi) -> value;
 
 our input file will look like this:
-'''
+```
 @{base_level};
 
 \[1,  5) -> -1; 
@@ -64,13 +64,13 @@ our input file will look like this:
 \[14, 17) -> 3;
 
 \[17, 21) -> 4;
-'''
+```
 
 
 We run the program by entering the following into cmd: 
-
+```
 java Block destroy_undead
-
+```
 when we run the program, a file will be made with the name destroy_undead_out.txt
 
 You can copy the text in that file and use it as a math roll in a ability on a character sheet to show the max CR level of undead the player can destroy.
