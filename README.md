@@ -8,7 +8,16 @@ Roll 20 is a powerful system but there are limits to what you can do for free.
 This application is just one tool to make life a little bit easier while 
 writing macros for character abilities. 
 
-
+# Setup and usage
+1) Install JDK
+2) Download the Block.java file
+3) edit the Block.java file to indicate default path (optional)
+4) compile Block.java using `javac Block.java`
+5) create a input file (see below)
+6) run program by using `java Block FileName_or_Path`
+7) open `FileName_or_Path_out.txt`
+8) select all text and copy to clipboard
+9) paste it wherever you want to have the math roll executed in roll20
 
 
 # How to use the tool:
