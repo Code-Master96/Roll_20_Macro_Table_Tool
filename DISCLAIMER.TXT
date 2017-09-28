@@ -1,6 +1,0 @@
-I'm sure that this could be simplified and made more efficent. 
-I might look into it if I have a lot of free time, but for now 
-this is what I came up with on the fly.
-
-
-
