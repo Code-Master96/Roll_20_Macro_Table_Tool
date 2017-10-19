@@ -79,10 +79,15 @@ public class Block
 		return (isNull)?("isNull"):(attribute + " : [" + lo + ", " + hi + ") : " + value);
 	}
 
-	public void toFormula(FileWriter out) throws IOException
+	public void toFormula(FileWriter out, boolean first) throws IOException
 	{
 		if (!isNull)
 		{
+			if(!first)
+			{
+				out.write("+");
+			}
+			
 			out.write(value.toString() + "*((abs((" + attribute + ") - (" + lo.toString() + ") + 0.001)+ (" + attribute
 					+ ")-(" + lo.toString() + ")+0.001)/0.002 - (abs((" + attribute + ")-(" + lo.toString() + "))+("
 					+ attribute + ")-(" + lo.toString() + "))/0.002- (abs((" + attribute + ") - (" + hi.toString()
@@ -210,8 +215,9 @@ public class Block
 			
 		}
 		FileWriter out = new FileWriter(outFN);
-		out.write("[[round(100*(");
+		out.write("[[round([[100*(");
 		boolean end = false;
+		boolean first = true;
 		// Translate
 		while (!end && !Block.getEOF_REACHED())
 		{
@@ -219,13 +225,14 @@ public class Block
 			try
 			{
 				tmp = new Block(in);
-				tmp.toFormula(out);
+				tmp.toFormula(out,first);
+				first = false;
 			} catch (IOException e)
 			{
 				end = true;
 			}
 		}
-		out.write("))/100]]");
+		out.write(")]])/100]]");
 		System.out.println("Output saved to \"" + path + outFN + "\"");
 		out.close();
 		in.close();
